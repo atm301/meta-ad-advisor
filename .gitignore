@@ -1,0 +1,11 @@
+# 使用者自己的真實廣告資料，不要傳上來（含營收/客戶資訊）
+my-ads-*.csv
+*-real.csv
+private/
+
+# OS / 編輯器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
