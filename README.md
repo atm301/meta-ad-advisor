@@ -33,6 +33,8 @@
 
 完整說明見 [`framework/four-layer-method.md`](framework/four-layer-method.md)。
 
+> 帳戶長大、上了 Advantage+、或懷疑平台 ROAS 灌水了？進階篇 [`framework/four-layer-2.0-advanced.md`](framework/four-layer-2.0-advanced.md) 誠實談四層的天花板，並補上 **MER 大盤煞車、增量測量(holdout/iROAS)、mROAS 搬錢、創意漏斗診斷(Hook→Hold→CTR→CVR)** 等業界進階框架，整合成「四層判斷法 2.0」。
+
 ---
 
 ## 30 秒上手
@@ -69,7 +71,8 @@ CTR、CVR、CPA、ROAS 不必自己算，AI 會幫你算。範例資料見 [`exa
 ```
 meta-ad-advisor/
 ├── framework/
-│   ├── four-layer-method.md        # 四層判斷法完整說明（含健康區間與決策準則）
+│   ├── four-layer-method.md        # 四層判斷法完整手冊（含健康區間與決策準則）
+│   ├── four-layer-2.0-advanced.md  # 進階：四層的天花板 + MER/增量/mROAS/創意漏斗等更強框架
 │   ├── benchmarks.md               # Meta 廣告指標基準（台灣實務值 + 全球中位數）
 │   └── related-projects.md         # 同類專案地圖：本 repo 在生態系的位置與升級路徑
 ├── prompts/
