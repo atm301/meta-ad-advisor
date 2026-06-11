@@ -69,7 +69,9 @@ CTR、CVR、CPA、ROAS 不必自己算，AI 會幫你算。範例資料見 [`exa
 ```
 meta-ad-advisor/
 ├── framework/
-│   └── four-layer-method.md        # 四層判斷法完整說明（含健康區間與決策準則）
+│   ├── four-layer-method.md        # 四層判斷法完整說明（含健康區間與決策準則）
+│   ├── benchmarks.md               # Meta 廣告指標基準（台灣實務值 + 全球中位數）
+│   └── related-projects.md         # 同類專案地圖：本 repo 在生態系的位置與升級路徑
 ├── prompts/
 │   ├── system-prompt.md            # 資深投手 System Prompt（直接複製就跑）
 │   ├── user-prompt-template.md     # User Prompt 四段資料模板
@@ -101,6 +103,7 @@ AI 是加速器，不是自動駕駛。判斷權留在你手上：
 
 ## 延伸學習
 
+- **想看同類工具？** [`framework/related-projects.md`](framework/related-projects.md) 整理了 GitHub 上的 Meta 廣告 AI 專案（分析 skill、接 API 的 MCP server、行銷組合模型 MMM），並畫出從本 repo 入門到專家級的升級路徑。
 - 課程《AI 廣告預算優化師》與《廣告五門 × 四大受眾》補充教材：[atmtut.com/廣告五門](https://atmtut.com)
 - 圭話行銷：https://atmarketing.tw
 
